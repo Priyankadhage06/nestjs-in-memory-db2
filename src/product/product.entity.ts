@@ -8,6 +8,5 @@ export class Product {
   name: string;
 
   @ApiProperty({ description: 'Price of the product in USD', example: 999.99 })
-  
   price: number;
 }
